@@ -1,0 +1,51 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.firstSection {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  background-image: url(./../../../Images/slide-03.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.firstSection .firstTextBox {
+  width: 40%;
+  margin-left: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 25px;
+  color: rgb(66, 65, 65);
+}
+.firstSection .firstTextBox h3 {
+  font-size: 34px;
+  font-weight: 500;
+  font-family: sans-serif;
+}
+.firstSection .firstTextBox h1 {
+  font-size: 58px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+.firstSection .firstTextBox button {
+  padding: 16px 32px;
+  background-color: rgb(78, 89, 194);
+  border: none;
+  border-radius: 330px;
+  color: rgb(223, 216, 216);
+  font-weight: 600;
+  font-size: 16px;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.firstSection .firstTextBox button:hover {
+  background-color: black;
+}

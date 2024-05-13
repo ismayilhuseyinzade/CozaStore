@@ -1,0 +1,30 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.secondSection {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.secondSection .secondBox {
+  width: 26%;
+  height: 250px;
+  background-image: url(./../../../Images/banner-01.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border: 1px solid rgb(202, 198, 198);
+  padding: 15px;
+}
+.secondSection .secondBox h1 {
+  width: 100%;
+}
+.secondSection .secondBox p {
+  width: 100%;
+}
